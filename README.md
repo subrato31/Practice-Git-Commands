@@ -3,9 +3,19 @@
 This repository is for my learning of git commands.
 
 Git basics commands:
- 1. $ git config -global user.name "your_username"               
- 2. $ git config -global user.email "your_email_address"
- 
- 3. git init 
- 4. git add .
- 5. git commit -m "commit message"
+Set your git credentials globally in your system.
+
+```
+git config -global user.name "git_username"
+git config -global user.email "git_email_address"
+```
+
+Check your git credentials in your system
+
+```
+git config --list
+```
+
+git init
+git add .
+git commit -m "commit message"
