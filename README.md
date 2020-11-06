@@ -16,6 +16,11 @@ Check your git credentials in your system
 git config --list
 ```
 
+Initialize local git repository
+
+```
 git init
+```
+
 git add .
 git commit -m "commit message"
