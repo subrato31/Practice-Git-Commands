@@ -28,4 +28,8 @@ Move you changes to staging area then later commit locally
 git add .
 ```
 
+Commit your changes
+
+```
 git commit -m "commit message"
+```
